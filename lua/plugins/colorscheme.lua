@@ -7,4 +7,8 @@ return {
       vim.cmd.colorscheme("dracula")
     end,
   },
+  -- add devicons
+  {
+    "nvim-tree/nvim-web-devicons"
+  },
 }
