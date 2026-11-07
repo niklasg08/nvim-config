@@ -10,17 +10,7 @@ return {
 	{ 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
     },
     config = function()
-      vim.keymap.set('n', '<space>ff', require('telescope.builtin').find_files)
-      vim.keymap.set('n', '<space>fb', function()
-	require('telescope.builtin').find_files {
-	  cwd = os.getenv('HOME')..'/testAutomation'
-          }
-	end)
-      vim.keymap.set('n', '<space>fn', function()
-	require('telescope.builtin').find_files {
-	  cwd = os.getenv('HOME')..'/.config/nvim/'
-          }
-	end)
+      vim.keymap.set('n', '<space>f',require('telescope.builtin').find_files)
     end
   }
 }
