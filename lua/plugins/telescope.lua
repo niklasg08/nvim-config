@@ -1,5 +1,3 @@
-require('os')
-
 return {
   {
     'nvim-telescope/telescope.nvim', 
