@@ -25,6 +25,9 @@ vim.g.maplocalleader = "\\"
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+-- set color column to 99
+vim.opt.colorcolumn = "99"
+
 -- set clipboard to system
 vim.opt.clipboard = "unnamedplus"
 
