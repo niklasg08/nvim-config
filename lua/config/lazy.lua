@@ -31,6 +31,9 @@ vim.opt.clipboard = "unnamedplus"
 -- enable .editorconfig listener
 vim.g.editorconfig = true
 
+-- set current theme
+vim.cmd.colorscheme("catppuccin")
+
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
