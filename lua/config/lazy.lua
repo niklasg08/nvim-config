@@ -25,6 +25,9 @@ vim.g.maplocalleader = "\\"
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+-- set clipboard to system
+vim.opt.clipboard = "unnamedplus"
+
 -- enable .editorconfig listener
 vim.g.editorconfig = true
 
